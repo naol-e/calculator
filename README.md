@@ -13,20 +13,7 @@ You can **try it live** here: [Live Demo](https://naol-e.github.io/calculator/)
 - **Clear & Delete:** `AC` clears the screen, `DE` deletes the last digit.  
 - **Styled UI:** Modern look with hover and active button effects.  
 
----
 
-## Screenshots
-
-**Desktop View:**
-
-![Calculator Desktop](https://user-images.githubusercontent.com/naol-e/placeholder.png)  
-
-**Mobile View:**
-
-![Calculator Mobile](https://user-images.githubusercontent.com/naol-e/placeholder.png)  
-
-
----
 
 ## Installation / Usage
 
