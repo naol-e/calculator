@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, lightblue, whitesmoke);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Calculator container */
+.content {
+    width: 400px;
+    background: lightblue;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: 1;
+    padding: 20px 15px 25px;
+    gap: 15px; /* space between display and buttons */
+}
+
+/* Display area */
+.display {
+    width: 100%;
+}
+
+.screen {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    border: none;
+    color: rgb(14, 97, 123);
+    font-size: 40px;
+    text-align: right;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+/* Button container */
+.btns {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* space between rows of buttons */
+}
+
+.button {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Buttons */
+button {
+    width: 80px;
+    height: 70px;
+    font-size: 22px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.end {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: lightblue;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(14, 97, 123);
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+button:hover {
+    background-color: #f0f8ff;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+/* Function buttons (AC, DE, %, /, etc.) */
+.function {
+    background-color: rgb(235, 245, 255);
+    color: rgb(14, 97, 123);
+    font-weight: bold;
+}
+
+/* Number buttons */
+button:not(.function) {
+    color: gray;
+}
+@media (max-width: 480px) {
+    .content {
+        width: 90%;
+        gap: 10px;
+        padding: 15px;
+    }
+
+    .screen {
+        height: 80px;
+        font-size: 28px;
+        padding: 8px;
+    }
+
+    button {
+        width: 20%;
+        height: 55px;
+        font-size: 18px;
+        margin: 2px;
+    }
+
+    .btns {
+        gap: 8px;
+    }
+}
+
