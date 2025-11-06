@@ -19,13 +19,12 @@ You can **try it live** here: [Live Demo](https://naol-e.github.io/calculator/)
 
 **Desktop View:**
 
-![Calculator Desktop](https://user-images.githubusercontent.com/yourusername/placeholder.png)  
+![Calculator Desktop](https://user-images.githubusercontent.com/naol-e/placeholder.png)  
 
 **Mobile View:**
 
-![Calculator Mobile](https://user-images.githubusercontent.com/yourusername/placeholder.png)  
+![Calculator Mobile](https://user-images.githubusercontent.com/naol-e/placeholder.png)  
 
-*(Replace placeholders with actual screenshots if desired)*
 
 ---
 
